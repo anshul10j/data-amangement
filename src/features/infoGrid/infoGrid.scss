@@ -1,0 +1,18 @@
+.infoGridContainer{
+  height: calc(100% - 85px);
+  .ag-theme-alpine{
+    width: 100%;
+    height: calc(100% - 60px);
+    .ag-center-cols-container{
+      width: 100% !important;
+    }
+    .ag-ltr .ag-cell{
+      text-align: initial;
+    }
+  }
+  footer{
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: row-reverse;
+   }
+}
